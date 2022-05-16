@@ -261,7 +261,9 @@ img {
 .team-item:nth-child(4n) {margin-right: 0;}
 
 .team-item> .item {
-    padding: 30px;}
+    padding: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;}
 
 .team-title {
     font-size: 16px;
@@ -306,8 +308,7 @@ img {
 .clients-list {
     display: flex;
     align-items: center;
-    justify-content: center;
-}
+    justify-content: center;}
 
 .clients-item {
     display: flex;
@@ -340,6 +341,13 @@ img {
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;}
+
+.page-footer> .container {
+    display: flex;
+    align-items: baseline;}
+
+.footer-container {
+    margin-right: 70px;}
 
 .page-footer .logo-first {
     display: block;
@@ -374,6 +382,37 @@ img {
 .footer-list .phone:focus,
 .footer-list .phone:hover {
     color: #2196F3;}
+
+.join-title {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;}
+
+.join-list {
+    display: flex;}
+
+.join-item {
+    margin-right: 10px;}
+
+.join-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color:#FFFFFF;
+    background: rgba(255, 255, 255, 0.1);}
+
+.join-icon {
+    fill: currentColor;}
+
+.join-link:hover,
+.join-link:focus {
+    background-color: #2196F3;}
 
 /*Portfolio Page*/
 /*Header*/
@@ -421,7 +460,8 @@ img {
 .btn:hover,
 .btn:focus {
     background-color: #188CE8;
-    color:#FFFFFF;}
+    color:#FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
 
 /*Portfolio*/
 .portfolio-list {
@@ -434,6 +474,9 @@ img {
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;}
+
+.portfolio-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
 
 .portfolio-item:nth-child(3n) {
     margin-right: 0px;}
@@ -459,6 +502,7 @@ img {
     text-transform: capitalize;
     line-height: 1.88;
     letter-spacing: 0.03em;}
+
 
 
 
